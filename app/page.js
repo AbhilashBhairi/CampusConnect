@@ -1,3 +1,4 @@
+```jsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -80,7 +81,14 @@ export default function Home() {
       </aside>
 
       {/* HEADER */}
-      <header className="header">
+      <header
+        className="header"
+        style={{
+          position: "sticky",
+          top: 0,
+          zIndex: 1000,
+        }}
+      >
         <div className="header-inner">
 
           {/* LOGO */}
@@ -461,3 +469,4 @@ export default function Home() {
     </div>
   );
 }
+```
