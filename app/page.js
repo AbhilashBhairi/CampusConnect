@@ -64,9 +64,17 @@ export default function Home() {
         </div>
 
         <nav>
-          <a href="#home" onClick={closeMenu}>Home</a>
-          <a href="#about" onClick={closeMenu}>About</a>
-          <a href="#contact" onClick={closeMenu}>Contact</a>
+          <a href="#home" onClick={closeMenu}>
+            Home
+          </a>
+
+          <a href="#about" onClick={closeMenu}>
+            About
+          </a>
+
+          <a href="#contact" onClick={closeMenu}>
+            Contact
+          </a>
         </nav>
 
         <div className="mobile-menu-actions">
@@ -99,9 +107,17 @@ export default function Home() {
 
           {/* DESKTOP NAVIGATION */}
           <nav className="desktop-nav">
-            <a href="#home">Home</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#about">About</a>
+            <a href="#home">
+              Home
+            </a>
+
+            <a href="#how-it-works">
+              How It Works
+            </a>
+
+            <a href="#about">
+              About
+            </a>
           </nav>
 
           {/* DESKTOP ACTIONS */}
@@ -122,6 +138,7 @@ export default function Home() {
             <a href="/register" className="register-button">
               Register
             </a>
+
           </div>
 
           {/* MOBILE ACTIONS */}
@@ -183,19 +200,25 @@ export default function Home() {
             </p>
 
             <div className="hero-actions">
+
               <a href="/register" className="primary-button">
                 Report an Issue
                 <span>→</span>
               </a>
 
-              <a href="#how-it-works" className="secondary-button">
+              <a
+                href="#how-it-works"
+                className="secondary-button"
+              >
                 How It Works
               </a>
+
             </div>
 
             <div className="hero-note">
               <span>✓</span>
               Simple reporting &nbsp; • &nbsp;
+
               <span>✓</span>
               Transparent tracking
             </div>
@@ -208,17 +231,23 @@ export default function Home() {
             <div className="dashboard-card">
 
               <div className="dashboard-top">
+
                 <div>
+
                   <span className="small-label">
                     CAMPUS OVERVIEW
                   </span>
 
-                  <h3>Complaint Activity</h3>
+                  <h3>
+                    Complaint Activity
+                  </h3>
+
                 </div>
 
                 <div className="mini-avatar">
                   C
                 </div>
+
               </div>
 
               <div className="stats-row">
@@ -247,8 +276,15 @@ export default function Home() {
                 </div>
 
                 <div className="complaint-info">
-                  <strong>Wi-Fi connectivity issue</strong>
-                  <span>CSE Block • 12 min ago</span>
+
+                  <strong>
+                    Wi-Fi connectivity issue
+                  </strong>
+
+                  <span>
+                    CSE Block • 12 min ago
+                  </span>
+
                 </div>
 
                 <span className="status-pill">
@@ -264,8 +300,15 @@ export default function Home() {
                 </div>
 
                 <div className="complaint-info">
-                  <strong>Classroom lighting</strong>
-                  <span>Main Block • 1 hr ago</span>
+
+                  <strong>
+                    Classroom lighting
+                  </strong>
+
+                  <span>
+                    Main Block • 1 hr ago
+                  </span>
+
                 </div>
 
                 <span className="status-pill resolved">
@@ -281,7 +324,10 @@ export default function Home() {
         </section>
 
         {/* HOW IT WORKS */}
-        <section className="section" id="how-it-works">
+        <section
+          className="section"
+          id="how-it-works"
+        >
 
           <div className="section-heading">
 
@@ -303,42 +349,66 @@ export default function Home() {
           <div className="steps">
 
             <div className="step-card">
-              <div className="step-number">01</div>
 
-              <div className="step-icon">+</div>
+              <div className="step-number">
+                01
+              </div>
 
-              <h3>Report</h3>
+              <div className="step-icon">
+                +
+              </div>
+
+              <h3>
+                Report
+              </h3>
 
               <p>
                 Submit an issue with a description,
                 location, and optional photo.
               </p>
+
             </div>
 
             <div className="step-card">
-              <div className="step-number">02</div>
 
-              <div className="step-icon">✓</div>
+              <div className="step-number">
+                02
+              </div>
 
-              <h3>Review</h3>
+              <div className="step-icon">
+                ✓
+              </div>
+
+              <h3>
+                Review
+              </h3>
 
               <p>
                 Campus administrators review and
                 process the complaint.
               </p>
+
             </div>
 
             <div className="step-card">
-              <div className="step-number">03</div>
 
-              <div className="step-icon">↗</div>
+              <div className="step-number">
+                03
+              </div>
 
-              <h3>Resolve</h3>
+              <div className="step-icon">
+                ↗
+              </div>
+
+              <h3>
+                Resolve
+              </h3>
 
               <p>
                 Track the complaint until the issue
                 is addressed and resolved.
               </p>
+
             </div>
 
           </div>
@@ -346,7 +416,10 @@ export default function Home() {
         </section>
 
         {/* ABOUT */}
-        <section className="about-section" id="about">
+        <section
+          className="about-section"
+          id="about"
+        >
 
           <div className="about-content">
 
@@ -390,11 +463,16 @@ export default function Home() {
           <div className="about-card">
 
             <div className="about-card-top">
+
               <span className="pulse" />
+
               SYSTEM STATUS
+
             </div>
 
-            <h3>Campus issues, organized.</h3>
+            <h3>
+              Campus issues, organized.
+            </h3>
 
             <p>
               One place to report, manage, track,
@@ -416,15 +494,25 @@ export default function Home() {
       </main>
 
       {/* FOOTER */}
-      <footer className="footer" id="contact">
+      <footer
+        className="footer"
+        id="contact"
+      >
 
         <div className="footer-inner">
 
           <div className="footer-brand">
 
             <a href="#home" className="logo">
-              <span className="logo-mark">C</span>
-              <span>CampusConnect</span>
+
+              <span className="logo-mark">
+                C
+              </span>
+
+              <span>
+                CampusConnect
+              </span>
+
             </a>
 
             <p>
@@ -437,15 +525,35 @@ export default function Home() {
           <div className="footer-links">
 
             <div>
-              <h4>Platform</h4>
-              <a href="/login">Login</a>
-              <a href="/register">Register</a>
+
+              <h4>
+                Platform
+              </h4>
+
+              <a href="/login">
+                Login
+              </a>
+
+              <a href="/register">
+                Register
+              </a>
+
             </div>
 
             <div>
-              <h4>Support</h4>
-              <a href="#about">About</a>
-              <a href="#contact">Contact</a>
+
+              <h4>
+                Support
+              </h4>
+
+              <a href="#about">
+                About
+              </a>
+
+              <a href="#contact">
+                Contact
+              </a>
+
             </div>
 
           </div>
@@ -469,4 +577,3 @@ export default function Home() {
     </div>
   );
 }
-```
