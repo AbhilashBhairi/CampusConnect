@@ -431,7 +431,6 @@ export default function Home() {
             <div>
               <h4>Platform</h4>
               <a href="#home">Home</a>
-              <a href="#how-it-works">How It Works</a>
               <a href="/login">Login</a>
               <a href="/register">Register</a>
             </div>
